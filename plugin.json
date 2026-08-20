@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "aiau-plugins",
+  "version": "1.0.0",
+  "description": "AIAU（AIエージェントユーザー会）向け Agent Skills。X イベント告知投稿などコミュニティ運営ワークフローを提供する。",
+  "author": {
+    "name": "AI Agent User Group",
+    "url": "https://aiau.group/"
+  },
+  "homepage": "https://aiau.group/",
+  "repository": "https://github.com/AI-Agent-User-Group/aiau-plugins",
+  "license": "MIT",
+  "keywords": ["aiau", "agent-skills", "x", "twitter", "event", "meetup"]
+}
