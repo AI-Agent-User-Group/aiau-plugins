@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "aiau-plugins",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AIAU（AIエージェントユーザー会）向け Agent Skills。X イベント告知投稿などコミュニティ運営ワークフローを提供する。",
   "author": {
     "name": "AI Agent User Group",

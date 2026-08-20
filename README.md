@@ -6,6 +6,7 @@ AIAU（[AIエージェントユーザー会](https://aiau.group/)）向けの [A
 
 - [Agent Plugins 1.0.0](https://agent-plugins.org/specification)
 - [Agent Skills](https://agentskills.io/specification)
+- インストール: [`npx skills`](https://github.com/vercel-labs/skills)
 
 ## 構成
 
@@ -25,13 +26,35 @@ aiau-plugins/
 
 ## インストール
 
-このリポジトリを clone し、対応クライアントのプラグインルートとしてディレクトリ全体を指定してください。
+### npx skills（推奨）
+
+`skills/` 配下が [skills CLI](https://github.com/vercel-labs/skills) の探索対象なので、追加のマニフェストは不要です。
+
+```bash
+npx skills add AI-Agent-User-Group/aiau-plugins
+```
+
+特定スキルだけ入れる場合:
+
+```bash
+npx skills add AI-Agent-User-Group/aiau-plugins --skill aiau-event-post
+```
+
+収録スキルの確認:
+
+```bash
+npx skills add AI-Agent-User-Group/aiau-plugins --list
+```
+
+このリポジトリは private です。Git の認証、`gh` ログイン、または SSH が通っている必要があります。skills.sh の公開一覧には出ません。
+
+### Agent Plugin として読む
+
+対応クライアントのプラグインルートとして、このディレクトリ全体を指定してください。
 
 ```bash
 git clone https://github.com/AI-Agent-User-Group/aiau-plugins.git
 ```
-
-クライアントが Agent Plugins の `plugin.json` と `skills/` を読む場合、追加の変換は不要です。
 
 ## 収録スキル
 
