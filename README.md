@@ -46,8 +46,6 @@ npx skills add AI-Agent-User-Group/aiau-plugins --skill aiau-event-post
 npx skills add AI-Agent-User-Group/aiau-plugins --list
 ```
 
-このリポジトリは private です。Git の認証、`gh` ログイン、または SSH が通っている必要があります。skills.sh の公開一覧には出ません。
-
 ### Agent Plugin として読む
 
 対応クライアントのプラグインルートとして、このディレクトリ全体を指定してください。
